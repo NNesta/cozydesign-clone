@@ -18,12 +18,12 @@ function JoinDesigner() {
     <h3 className='font-fraunces7 text-brown-100 text-7xls mb-6 font-semibolder'>
         <em>Psst… </em>
         <br/>
-        "are you a designer? "
+        are you a designer?
     </h3>
     <p className='font-fraunces7 text-brown-100 font-mediumSm text-xls4 -mt-6 '>
-        "Consider joining our "
+        Consider joining our
         <Link href="/">San Diego Design Designers</Link>
-        " group. More than 700 people, we meet online via Slack and in person at social events around the city. It’s a great opportunity to share ideas, get inspired, find support, and celebrate great design."
+        {" group. More than 700 people, we meet online via Slack and in person at social events around the city. It’s a great opportunity to share ideas, get inspired, find support, and celebrate great design."}
     </p>
     </div>
      </div>

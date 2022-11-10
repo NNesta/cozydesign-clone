@@ -68,8 +68,8 @@ in San Diego, California</h4>
         </div>
         <div className="flex flex-col gap-10 -mt-12">
         {images2.map((image,index)=>
-        <div className='flex flex-col items-center gap-2'>
-            <Image key={index} src={image.url} width={image.width} height={image.height} alt=''/> 
+        <div key={index} className='flex flex-col items-center gap-2'>
+            <Image src={image.url} width={image.width} height={image.height} alt=''/> 
             {image.text&&<h3 className='text-dark-700 font-semibolder text-lgg1'>BBB rating: A+</h3>}
            </div> )}
 

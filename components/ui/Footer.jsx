@@ -58,7 +58,7 @@ function Footer() {
      <p className='text-dark-600 text-xls1 '>5.0</p>
      <Link href='/'>
      <ul className='flex gap-1'>
-      {[1,1,1,1,1].map((_,index)=><li><Image alt='icons' key={index} className='' src='/assets/star.svg' width={16} height={16}/></li>)}
+      {[1,1,1,1,1].map((_,index)=><li key={index}><Image alt='icons'  className='' src='/assets/star.svg' width={16} height={16}/></li>)}
      </ul></Link>
    </div>
      <Link href='/' className='text-mds tracking-[-.2px] mt-1 whitespace-nowrap text-dark-600 hover:underline decoration-dark-600'>Based on 16 Clutch reviews</Link>

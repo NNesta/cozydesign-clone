@@ -16,7 +16,6 @@ function Navbar() {
       setLastScroll(window.scrollY)
   }
   useEffect(()=>{
-    console.log(window.scrollY)
     if(window !== 'undefined'){
       window.addEventListener('scroll',showNav)
     }
