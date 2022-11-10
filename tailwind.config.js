@@ -61,6 +61,7 @@ module.exports = {
           '8xls': ['61px','1.1em'],
           '8xlg': ['70px','1.1em'],
           '10xl': ['5rem','1.1em'],
+          '10xlg': ['5.625rem','1.1em'],
 
       },
       fontFamily:{

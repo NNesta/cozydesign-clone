@@ -9,7 +9,7 @@ function HeroSection() {
         <Layout styles="h-fit bg-brown-100 hero-gradient">
             <div className='flex flex-col lg:flex-row pt-28 gap-16 max-w-[80%] lgc:max-w-[95%] mx-auto items-center'>
                 <div className='flex flex-col font-fraunces1 items-start gap-12 flex-1'>
-                    <h1 className='text-8xls mdc:text-10xl bg-brown-300  bg-clip-text font-bold text-transparent noisy-100 max-w-[80%] pb-8'>Your design team for the cost of a salary.</h1>
+                    <h1 className='text-8xls mdc:text-10xl lg:text-10xlg bg-brown-300  bg-clip-text font-bold text-transparent noisy-100 max-w-[80%] pb-8'>Your design team for the cost of a salary.</h1>
                     <p className='text-8xls1 mdc:text-8xl bg-brown-100 noisy-100 opacity-80 max-w-[90%] tracking-widest bg-clip-text text-transparent font-semibold '>Full-service design support that growing B2B and non-profit organizations need. Are you strained because you should have a design team but you don't?</p>
                     <Button>see how we work & what we can do</Button>
                 </div>

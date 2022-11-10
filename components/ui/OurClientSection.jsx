@@ -16,12 +16,12 @@ function OurClientSection() {
         <div className='p-2 rounded-full border-brown-100 border-2'>
         <div className='bg-brown-100 rounded-full p-6'>
 
-        <Image className='rounded-full ' width={32} height={32} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg'/>
+        <Image alt='' className='rounded-full ' width={32} height={32} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec72df4703e47_chat-icon-black.svg'/>
         </div></div>
       </div></div>
        <div className='grid lg:grid-cols-2 lg:flex-row gap-6 w-10/12 mx-auto mt-2'>
         <div className='py-20 pr-10 pl-16 noisy-100 flex flex-col gap-8 items-end text-right mt-52 rounded-t-[80%] rounded-bl-[100%] bg-dark-500'>
-           <Image className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b770510976c9e1777077786_susie.webp" width={74} height={74}/>
+           <Image alt='' className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b770510976c9e1777077786_susie.webp" width={74} height={74}/>
            <h4 className='text-brown-300 font-fraunces7 text-xls2 font-semibold'>“One of the top design professionals…”</h4>
            <p className='text-brown-100 font-fraunces7 text-xls3 font-mediumSm '>I connect with hundreds of talented folks on a regular basis, and I can say with complete confidence that Lee is one of the best UX designers in Aquent/Vitamin T's global network</p>
            <h4 className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]'>SUSIE POLLASKY</h4>
@@ -30,7 +30,7 @@ at Facebook</p>
 
         </div>
         <div className='p-20 noisy-100 flex flex-col gap-8 items-start text-left rounded-t-[100%] rounded-br-[50%] bg-dark-700'>
-           <Image className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp" width={74} height={74}/>
+           <Image alt='' className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb5a50fc9931734c91126_1517679695814.webp" width={74} height={74}/>
            <h4 className='text-brown-300 font-fraunces7 text-xls2 font-semibold'>“They’re a very well-rounded organization…”</h4>
            <p className='text-brown-100 font-fraunces7 text-xls3 font-mediumSm'>Cost per conversion and all of those metrics have dropped significantly. We used to pay an average of $100 per lead that converts… now we have that  down to about $20. Sessions and contacts have also gone up astronomically, at least threefold. Organic search and social media referrals have all continued to skyrocket. We’re really pleased.</p>
            <h4 className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]'>MARTIN SPRITZER</h4>
@@ -42,7 +42,7 @@ at Facebook</p>
     </div>
        <div className='grid lg:grid-cols-2 lg:flex-row gap-6 w-10/2 mx-auto mb-52'>
         <div className='p-20 noisy-100 flex flex-col gap-8 items-end text-right bg-brown-500 rounded-tl-[100%] rounded-b-[60%] bg-50'>
-           <Image className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb7dda4eebc035f1c0beb_1565729526231.webp" width={74} height={74}/>
+           <Image alt='' className='self-center' src="	https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb7dda4eebc035f1c0beb_1565729526231.webp" width={74} height={74}/>
            <h4 className='text-brown-100 font-fraunces7 text-xls font-semibold'>“They're just good people.”</h4>
            <p className='text-brown-100 font-fraunces7 text-xls3 font-mediumSm'>They were a pleasure to className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]' work with and I'm really happy with the results. They pretty much nailed it.</p>
            <h4 className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]'>ERIC WEISS</h4>
@@ -50,7 +50,7 @@ at Facebook</p>
 
         </div>
         <div className='p-20 noisy-100 flex flex-col gap-8 items-start bg-brown-900 rounded-tr-[100%] rounded-b-[60%] bg-50'>
-           <Image className='self-center' src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb8a427acfd62e2c3148c_Michael%20Weisfeld-p-500.webp" width={74} height={74}/>
+           <Image alt='' className='self-center' src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/604fb8a427acfd62e2c3148c_Michael%20Weisfeld-p-500.webp" width={74} height={74}/>
            <h4 className='text-brown-100 font-fraunces7 text-xls font-semibold text-left'>“The project was successful”</h4>
            <p className='text-brown-100 font-fraunces7 text-xls3 font-mediumSm'>They strive to come up w className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]'ith good design, and they focus on all the right things. The quality of their work is high, and all the deliverables are very well-organized and professional.</p>
            <h4  className='font-geomanist text-lgs font-semibolder uppercase tracking-[4px]'>MICHAEL WEISFELD</h4>
