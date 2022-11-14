@@ -6,9 +6,9 @@ import Layout from '../layouts/Layout';
 function Footer() {
   return (
     <Layout styles='bg-brown-100'>
-    <div className='flex flex-col gap-4 max-w-[90%] mx-auto'>
+    <div className='flex flex-col items-center gap-4 max-w-[90%] mx-auto'>
       <div className='flex flex-col sm:flex-row justify-between items-center my-16'>
-      <div className='flex gap-8 items-center'>
+      <div className='flex flex-col lgc:flex-row gap-8 items-center'>
         <Link href='/'><Image alt='' width={73} height={50} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg'/></Link>
         <ul className='flex flex-col mdc:flex-row gap-8 items-center'>
           <li className='font-fraunces7 mr-8 mt-1 text-brown-900 text-lgg font-mediumSm'><Link href='/'>Services</Link></li>
@@ -21,8 +21,8 @@ function Footer() {
         </ul>
 
       </div>
-      <div className='flex items-center gap-8'>
-       <div className='flex flex-col smc:flex-row items-center '>
+      <div className='flex flex-col lgc:flex-row items-center gap-8'>
+       <div className='flex items-center '>
      <Image src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f862ba8b2efe0fc2b486af2_emoji%402x.webp' width={20} height={20} />
      <Link href='' className='text-red-550 text-lgs1 ml-2 font-fraunces7 font-mediumSm '>
       San Diego Digital Designers
@@ -40,7 +40,7 @@ function Footer() {
        </ul>
       </div>
 </div>
-<div className='flex justify-between items-center py-16 border-t-2 border-brown-900'>
+<div className='flex flex-col lgc:flex-row justify-between items-center py-16 border-t-2 border-brown-900'>
   <div className='flex flex-col mdc:flex-row items-center gap-8'>
 <div className='flex flex-col items-center gap-2'>
     <Image alt='' src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/6331fe7646cb0557541386cd_BBB%20Accredited%20Business%20Horizontal%20Seal%20-%20Vector69Com.svg' width={140} height={53}/>
@@ -65,7 +65,7 @@ function Footer() {
   </div>
 </div>
 </div>
-<div className='flex flex-col sm:flex-row items-center gap-8'>
+<div className='flex flex-col sm:flex-row items-center gap-8 pt-16'>
   <p className='text-xs text-dark-700 font-mediumSm mr-4 font-fraunces7'>
 Made with <Image alt='' className='inline' src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec704b0703e39_heart-icon-color.svg" width={11} height={10}/> in beautiful, sunny San Diego. ©2021</p>
 <ul className='flex gap-4 items-center justify-end'>
