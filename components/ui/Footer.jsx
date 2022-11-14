@@ -51,14 +51,14 @@ function Footer() {
  
     <div className='aspect-square flex items-center justify-center h-full relative  bg-dark-600 rounded-tr-[25px]'>
       
-    <Image className='' alt='c icon' src='/assets/c-icon.svg' width={25} height={25}/>
+    <Image alt='c-icon' src='/assets/c-icon.svg' width={25} height={25}/>
   </div>
   <div className='flex flex-col w-full items-center justify-center'>
    <div className='flex gap-2 items-center justify-center'>
      <p className='text-dark-600 text-xls1 '>5.0</p>
      <Link href='/'>
      <ul className='flex gap-1'>
-      {[1,1,1,1,1].map((_,index)=><li key={index}><Image alt='icons'  className='' src='/assets/star.svg' width={16} height={16}/></li>)}
+      {[1,1,1,1,1].map((_,index)=><li key={index}><Image alt='icons' src='/assets/star.svg' width={16} height={16}/></li>)}
      </ul></Link>
    </div>
      <Link href='/' className='text-mds tracking-[-.2px] mt-1 whitespace-nowrap text-dark-600 hover:underline decoration-dark-600'>Based on 16 Clutch reviews</Link>
