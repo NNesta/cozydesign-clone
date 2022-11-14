@@ -61,12 +61,12 @@ in San Diego, California</h4>
 <p className='font-fraunces7 text-xls font-mediumSm mt-4 mb-8'>No epic quests for inspiration. Just pragmatic collaboration and efficient results from big-agency graduates with decades of experience.</p>
 <button className='hover:bg-opacity-80 transition-colors duration-300  text-lg text-white bg-brown-900 uppercase py-5 px-10 rounded-xl font-semibolder z-[100] bg-clip-padding bg-left-t ' >Why we do what we do</button>
     </div>
-    <div className='grid grid-cols-2 gap-4'>
+    <div className='grid mdc:grid-cols-2 gap-4 py-4 justify-center'>
         <div className="flex flex-col gap-10">
        {images1.map((image,index)=><Image key={index} src={image.url} width={image.width} height={image.height} alt=''/>)}
 
         </div>
-        <div className="flex flex-col gap-10 -mt-12">
+        <div className="flex flex-col gap-10 lgc:-mt-12">
         {images2.map((image,index)=>
         <div key={index} className='flex flex-col items-center gap-2'>
             <Image src={image.url} width={image.width} height={image.height} alt=''/> 

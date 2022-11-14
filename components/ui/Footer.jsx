@@ -10,7 +10,7 @@ function Footer() {
       <div className='flex flex-col sm:flex-row justify-between items-center my-16'>
       <div className='flex flex-col lgc:flex-row gap-8 items-center'>
         <Link href='/'><Image alt='' width={73} height={50} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg'/></Link>
-        <ul className='flex flex-col mdc:flex-row gap-8 items-center'>
+        <ul className='flex flex-col mdc:flex-row gap-8 items-center py-8'>
           <li className='font-fraunces7 mr-8 mt-1 text-brown-900 text-lgg font-mediumSm'><Link href='/'>Services</Link></li>
         
           <li className='font-fraunces7 mr-8 mt-1 text-brown-900 text-lgg font-mediumSm'><Link href='/'>Work</Link></li>
