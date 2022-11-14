@@ -6,7 +6,7 @@ import Layout from '../layouts/Layout';
 function Footer() {
   return (
     <Layout styles='bg-brown-100'>
-    <div className='flex flex-col items-center gap-4 max-w-[90%] mx-auto'>
+    <div className='flex flex-col gap-4 max-w-[90%] mx-auto'>
       <div className='flex flex-col sm:flex-row justify-between items-center my-16'>
       <div className='flex flex-col lgc:flex-row gap-8 items-center'>
         <Link href='/'><Image alt='' width={73} height={50} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg'/></Link>
@@ -65,7 +65,7 @@ function Footer() {
   </div>
 </div>
 </div>
-<div className='flex flex-col sm:flex-row items-center gap-8 pt-16'>
+<div className='flex flex-col sm:flex-row items-center gap-8 pt-16 lgc:pt-0'>
   <p className='text-xs text-dark-700 font-mediumSm mr-4 font-fraunces7'>
 Made with <Image alt='' className='inline' src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5b60dd35a56ec704b0703e39_heart-icon-color.svg" width={11} height={10}/> in beautiful, sunny San Diego. ©2021</p>
 <ul className='flex gap-4 items-center justify-end'>
