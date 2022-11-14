@@ -25,7 +25,7 @@ function Navbar() {
 
   }, [lastScroll])
   return (
-    <div className={`w-screen fixed top-0 h-24 navbar--bg z-[500] ${show&&'-z-50'} duration-300 ease-in-out`}>
+    <div className={`w-screen fixed top-0 h-24 navbar--bg z-[500] ${show&&'-top-24'} duration-500 ease-in-out`}>
      <div className='w-full flex gap-8 justify-center lg:justify-between items-center max-w-[90%] mx-auto'>
        <Link className='relative w-24 aspect-square' href='/'><Image src='/assets/logo-1.svg' fill alt='logo-nav'/></Link>
        <Image alt='' className='block mdc:hidden' height={80} width={80} src="/assets/menu.png"/>
