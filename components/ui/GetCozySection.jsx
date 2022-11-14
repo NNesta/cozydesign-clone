@@ -50,9 +50,9 @@ function GetCozySection() {
        
     ]
   return (
-    <Layout styles="h-fit bg-brown-100 cozy-gradient py-32">
+    <Layout styles="h-full bg-brown-100 cozy-gradient py-32">
 <div className='flex flex-col lg:flex-row justify-between px-4 lgc:px-32'>
-    <div className="flex flex-col gap- max-w-[630px] px-5 items-start">
+    <div className="flex flex-col py-16 lgc:py-0 max-w-[630px] px-5 items-start">
         <p className='font-geomanist text-dark-500 uppercase font-semibolder text-2xls mb-4'>🌴🐻🇺🇸</p>
         <h1 className='text-dark-500 font-medium mt-10 mb-2.5 text-8xlg font-fraunces7'>Get Cozy</h1>
         <h4 className='font-fraunces7 font-mediumSm text-xlg text-brown-500 w-[80%]'>Design & digital marketing
