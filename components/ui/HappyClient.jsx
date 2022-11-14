@@ -7,7 +7,7 @@ function HappyClient() {
     <Layout styles="bg-dark-500">
         <div className='flex flex-col items-center gap-16 py-16'>
      <h4 className='font-fraunces7 font-mediumSm text-brown-300 text-center text-opacity-80 text-2xlg'>More than 150 happy clients</h4>
-     <ul className='flex gap-8 items-center flex-wrap'>
+     <ul className='flex gap-8 items-center flex-wrap justify-center'>
    <li><Image alt='' src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8776ae2c425f4ec285598c_NPCA%20logo%20-%20light.svg" width={94} height={32}/></li>
 <li><Image alt='' src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8776ba7d82c245fddf1b2e_national%20funding%20logo%20full.svg' width={105} height={32} /></li>
 <li><Image alt='' src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8776ef53cdd1e1f8cac5b1_lightstream%20logo.svg' width={150} height={32}/></li>

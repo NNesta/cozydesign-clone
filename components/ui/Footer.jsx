@@ -10,7 +10,7 @@ function Footer() {
       <div className='flex flex-col sm:flex-row justify-between items-center my-16'>
       <div className='flex gap-8 items-center'>
         <Link href='/'><Image alt='' width={73} height={50} src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/5f8782865afd27755f3cb5bd_Cozy_logo_denim.svg'/></Link>
-        <ul className='flex gap-8 items-center'>
+        <ul className='flex flex-col mdc:flex-row gap-8 items-center'>
           <li className='font-fraunces7 mr-8 mt-1 text-brown-900 text-lgg font-mediumSm'><Link href='/'>Services</Link></li>
         
           <li className='font-fraunces7 mr-8 mt-1 text-brown-900 text-lgg font-mediumSm'><Link href='/'>Work</Link></li>
@@ -41,13 +41,13 @@ function Footer() {
       </div>
 </div>
 <div className='flex justify-between items-center py-16 border-t-2 border-brown-900'>
-  <div className='flex items-center gap-8'>
+  <div className='flex flex-col mdc:flex-row items-center gap-8'>
 <div className='flex flex-col items-center gap-2'>
     <Image alt='' src='https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/6331fe7646cb0557541386cd_BBB%20Accredited%20Business%20Horizontal%20Seal%20-%20Vector69Com.svg' width={140} height={53}/>
     <h3 className='text-dark-700 font-semibolder text-lgg1'>BBB rating: A+</h3>
 </div>
 <Image alt='' width={140} height={73} src="https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/634dd43d0cf9ec7420324d59_bod-new_shield-logo-member.png"/>
-<div className='bg-white rounded-tr-[25px] rounded-bl-[25px] overflow-hidden flex items-center gap- w-52 h-[50px] '>
+<div className='bg-white rounded-tr-[25px] rounded-bl-[25px] overflow-hidden flex items-center w-52 h-[50px] '>
  
     <div className='aspect-square flex items-center justify-center h-full relative  bg-dark-600 rounded-tr-[25px]'>
       

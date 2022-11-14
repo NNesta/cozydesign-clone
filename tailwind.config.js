@@ -8,9 +8,10 @@ module.exports = {
   theme: {
     extend: {
       screens:{
-         smc:'753px',
+         xsc:'479px',
+         smc:'767px',
          mdc:'991px',
-         lgc: '1220px',
+         lgc: '1279px',
       },
       colors:{
         brown: {
@@ -52,6 +53,7 @@ module.exports = {
           'xls3': ['18px','1.6em'],
           'xls4': ['20px','1.6em'],
           'xls': ['22px','1.6em'],
+          'xlg1': ['24px','1.333em'],
           'xlg': ['37px','1.6em'],
           '2xls': ['30px','1em'],
           '2xlg': ['30px','1.1em'],
